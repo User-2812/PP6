@@ -103,11 +103,10 @@ Place your completed `print.sh` in `solutions/` and commit. Then link it here:
 #### Reflection Questions
 
 1. **What is the difference between `printf` and `echo` in Bash?**
-    -Wird echo verwendet, btaucht man \n nicht. Bei printf hingegend schon.
+    Wird echo verwendet, btaucht man \n nicht. Bei printf hingegend schon.
 2. **What is the role of `~/.bashrc` in your shell environment?**
-    -~/bashrc ist der "Boot-Ordner" es wird beim starten des Terminals ausgeführt.
+    ~/bashrc ist der "Boot-Ordner" es wird beim starten des Terminals ausgeführt.
 3. **Explain the difference between sourcing (`source ~/.bashrc`) and executing (`./print.sh`).**
-    -
 
 ---
 
