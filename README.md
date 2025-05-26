@@ -357,6 +357,8 @@ Disassembly of section .fini:
     11c8:       48 83 ec 08             sub    $0x8,%rsp
     11cc:       48 83 c4 08             add    $0x8,%rsp
     11d0:       c3                      ret
+
+
 2. **Why is the syntax written differently from GAS assembly? Compare NASM vs. GAS notation.**
 
 
@@ -403,9 +405,9 @@ if __name__ == "__main__":
 #### Reflection Questions
 
 1. **Is Python’s print behavior closer to Bash, Assembly, or C? Explain.**
-Ich finde Python´s print ähnelt mehr C als Bash. Am wenigsten ähnelt es aber Assambly.  
+Pythons verhalten ähnelt mehr Bash, als C oder Assembly, da man \n nicht zwingend benötigt, wie bei dem echo Befehl.   
 2. **Can you inspect a Python script’s binary with `objdump`? Why or why not?**
-Das Python script lässt sich nicht mit Objdump anschauen. 
+Das Python script lässt sich nicht mit Objdump anschauen.  
 
 ---
 
