@@ -107,6 +107,8 @@ Place your completed `print.sh` in `solutions/` and commit. Then link it here:
 2. **What is the role of `~/.bashrc` in your shell environment?**
     ~/bashrc ist der "Boot-Ordner" es wird beim starten des Terminals ausgeführt.
 3. **Explain the difference between sourcing (`source ~/.bashrc`) and executing (`./print.sh`).**
+    Source ~/.bashrc führt die Datei in der Aktuellen shell aus, wohingegend ./print.sh einen eigenen "Bereich" öffnet.     
+
 
 ---
 
@@ -356,7 +358,11 @@ Disassembly of section .fini:
     11cc:       48 83 c4 08             add    $0x8,%rsp
     11d0:       c3                      ret
 2. **Why is the syntax written differently from GAS assembly? Compare NASM vs. GAS notation.**
+
+
 3. **How could you use `fprintf` to write output both to `stdout` and to a file instead? Provide example code.**
+
+
 
 ---
 
@@ -391,13 +397,15 @@ if __name__ == "__main__":
 **Solution Reference**
 
 ```
-[print.py](https://github.com/YOUR_USERNAME/REPO_NAME/blob/main/solutions/print.py)
+[print.py](https://github.com/User-2812/PP6/blob/master/solutions/print.py)
 ```
 
 #### Reflection Questions
 
 1. **Is Python’s print behavior closer to Bash, Assembly, or C? Explain.**
+Ich finde Python´s print ähnelt mehr C als Bash. Am wenigsten ähnelt es aber Assambly.  
 2. **Can you inspect a Python script’s binary with `objdump`? Why or why not?**
+Das Python script lässt sich nicht mit Objdump anschauen. 
 
 ---
 
